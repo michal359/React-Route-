@@ -10,7 +10,7 @@ export default function Header() {
     
     return (
         <header>
-            <Link className="site-logo" to="/">#FriendsHub</Link>
+            {/* <Link className="site-logo" to="/">#FriendsHub</Link> */}
             <nav>
                 <NavLink 
                     to="/login"
