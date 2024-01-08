@@ -1,9 +1,10 @@
-import React from 'react'
+import { React, useContext } from 'react'
 
-function Home({user}) {
+function Home() {
   return (
     <div>
-<h3>Hello ,{user}</h3>
+
+      <h3>Hello </h3>
     </div>
   )
 }

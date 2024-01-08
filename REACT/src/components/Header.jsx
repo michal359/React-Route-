@@ -11,7 +11,8 @@ export default function Header() {
     return (
         <header>
             {/* <Link className="site-logo" to="/">#FriendsHub</Link> */}
-            <nav>
+            <nav className="loginAndRegisterNavBar">
+
                 <NavLink 
                     to="/login"
                     end
@@ -25,12 +26,7 @@ export default function Header() {
                 >
                     Register
                 </NavLink>
-                <NavLink 
-                    to="/about"
-                    style={({isActive}) => isActive ? activeStyles : null}
-                >
-                    About
-                </NavLink>
+               
             </nav>
         </header>
     )
